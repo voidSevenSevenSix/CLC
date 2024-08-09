@@ -10,8 +10,8 @@ public class CLC {
     /* Map keys */
     public ArrayList<String> keys = new ArrayList<String>(Arrays.asList("Linden", "Howard", "Skokie", "63rd", "95th", "GLSS", "Harlem", "Forest Park", "Ohare", "Jefferson Park", "Kimball", "Loop", "Midway", "54th", "Garfield"));
     /* Best route globals */
-    int currentBestRouteTimeMin = 700;
-    String currentBestRoute = "";
+    private int currentBestRouteTimeMin = 700;
+    private String currentBestRoute = "";
 
     public CLC(){
         System.out.println("[CLC]: Chicago L Challenge Calculator - Object Initialized");
@@ -38,7 +38,6 @@ public class CLC {
         analyze(defaultCompletionStateMap, startStation, 0, startStation, 0, "null");
         System.out.println("[CLC]: Analysis completed.");
         System.out.println("[CLC]: Analysis determined that the best route takes approximately " + (double)currentBestRouteTimeMin/60 + " hours.");
-        System.out.println("[CLC]: The route is as follows:");
         System.out.println("[CLC]: " + currentBestRoute);
     }
 

@@ -68,5 +68,5 @@ Linden->Howard->Skokie->Howard->Loop->63rd->95th->63rd->GLSS->Garfield->Loop->Ha
 v2.4 (readded Roosevelt to correct for loop timing)
 No meaningful change
 
-v2.5 (removed Roosevelt)
+v2.5 (removed Roosevelt, still on 2 falses)
 Linden->Howard->Skokie->Howard->Loop->63rd->95th->63rd->GLSS->Garfield->Loop->Harlem->Forest Park->Ohare->Jefferson Park->Kimball->Loop->Midway->54th->Loop
